@@ -6,6 +6,10 @@
   color: #515076;
 }
 
+body {
+  font-family: 'Montserrat', Arial;
+}
+
 .title {
   margin: 0 auto;
   width: 846px;
