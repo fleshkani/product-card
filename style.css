@@ -14,11 +14,13 @@
   left: 217px;
   display: flex;
   justify-content: center;
-  font-weight: 400px;
+  font-weight: 400;
   font-style: Regular;
   font-size: 70px;
   line-height: 78px;
   align-items: center;
+  margin-bottom: 110px;
+  margin-top: 220px;
 }
 
 .card-container {
@@ -28,11 +30,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 1110px;
+  width: 1480px;
   height: 1191px;
   top: 408px;
   left: 85px;
   margin-top: 110px;
+  gap: 45px;
 }
 
 .card {
@@ -67,7 +70,7 @@
   margin-bottom: 5px;
 }
 
-.product-features {
+.product-description {
   margin-bottom: 15px;
   width: 287px;
   height: 36px;
@@ -78,6 +81,7 @@
 .compound {
   margin-top: 5px;
   padding-left: 14px;
+ 
 }
 
 .price-container {
@@ -97,4 +101,13 @@
 .product-price {
   font-size: 20px;
   line-height: 24px;
+}
+
+.background-flowers {
+  background-image: url('img/bg-flowers.png');
+  width: 790px;
+  height: 697px;
+  position: absolute;
+  margin-right: 1000px;
+  z-index: -1;
 }
