@@ -115,3 +115,21 @@ body {
   margin-right: 1000px;
   z-index: -1;
 }
+
+  button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border:hsl(from color h s l);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
