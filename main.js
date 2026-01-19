@@ -28,7 +28,7 @@ function openGoogle() {
   }
 };
 
-// вывод алерт и консоль лог
+// вывод алерт и вывод строки в консоль лог
 const buttonConsoleLogOutput = document.querySelector('#console-log-output');
 buttonConsoleLogOutput.addEventListener('click', () => outputConsoleLog('ДЗ№4'));
 
