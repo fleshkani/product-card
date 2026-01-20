@@ -28,7 +28,7 @@ function openGoogle() {
   }
 };
 
-// вывод алерт и вывод строки в консоль лог
+//вывод алерт и вывод строки в консоль лог
 const buttonConsoleLogOutput = document.querySelector('#console-log-output');
 buttonConsoleLogOutput.addEventListener('click', () => outputConsoleLog('ДЗ№4'));
 
@@ -37,7 +37,7 @@ function outputConsoleLog(message) {
   console.log(message)
 };
 
-// при наведении на заголовок 'Выбери свой продукт' элемент выводится в консоль
+//при наведении на заголовок 'Выбери свой продукт' элемент выводится в консоль
 const yourProductChoose = document.querySelector('.title');
 yourProductChoose.addEventListener('mouseenter', (event) => {
   console.log(event.target);
