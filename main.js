@@ -8,9 +8,9 @@ buttonCardsColorСhange.addEventListener('click', () => {
 
 //поменять фон первой карточки
 const firstProductCard = document.querySelector('.card');
-const buttonChangeColorOfCard = document.querySelector('#card-color-first-change');
+const colorToggleButton = document.querySelector('#card-color-first-change');
 const redColorHash = '#ff0000ff';
-buttonChangeColorOfCard.addEventListener('click', () => {
+colorToggleButton.addEventListener('click', () => {
   firstProductCard.style.backgroundColor = redColorHash;
 });
 

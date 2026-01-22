@@ -28,7 +28,7 @@ comparisonSpeedOfLight('23');
 выводим лог "Вам не хватает X$, пополните баланс"*/
 const product = 'Смартфон';
 const price = 500;
-function puchaseProduct(budget) {
+function purchaseProduct(budget) {
   if (budget > price) {
     console.log(product + ' приобретён. Спасибо за покупку!');
   } else {
@@ -36,7 +36,7 @@ function puchaseProduct(budget) {
     console.log('Вам не хватает ' + diff + '$, пополните баланс');
   }
 }
-puchaseProduct(505);
+purchaseProduct(505);
 
 //Функция которая способна вывести сообщение в консоль
 const logMessage = () => {
