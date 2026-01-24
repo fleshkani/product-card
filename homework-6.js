@@ -19,11 +19,13 @@ const car = {
   color: "white",
   transmission: "automatic"
 };
+
 const owner = {
   name: "Alex",
   age: 30,
   license: true
 };
+
 car.owner = owner;
 
 //5.Функция проверяет есть ли в объекте свойство "максимальная скорость"
@@ -87,7 +89,7 @@ books.push({
 console.log(books);
 
 //9. Массив, из книг, Гарри Поттер. С помощью оператора, объединяем два массива в один
-// 1️⃣ Массив книг (Гарри Поттер)
+// Массив книг (Гарри Поттер)
 const harryPotterBooks = [
   {
     title: "Harry Potter and the Philosopher's Stone",
